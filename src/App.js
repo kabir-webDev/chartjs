@@ -5,7 +5,7 @@ import LineCharts from "./components/LineCharts";
 function App() {
   return (
     <div className="App container">
-      <div className="chart neu">
+      <div className="neu">
         <LineCharts />
       </div>
     </div>
