@@ -4,8 +4,8 @@ import LineCharts from "./components/LineCharts";
 
 function App() {
   return (
-    <div className="App">
-      <div className="chart">
+    <div className="App container">
+      <div className="chart neu">
         <LineCharts />
       </div>
     </div>

@@ -1,15 +1,29 @@
 .App {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .chart {
   width: 720px;
-  background-color: lightblue;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
   border-color: rgba(238, 86, 59, 0.774);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.neu {
+  /* height: 300px;
+  width: 300px; */
+  padding: 20px;
+  background: chocolate;
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 5px #ffffff90, inset 3px 3px 15px #00000090;
 }
 
 @media (prefers-reduced-motion: no-preference) {
