@@ -1,10 +1,15 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-
+.chart {
+  width: 720px;
+  background-color: lightblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-color: rgba(238, 86, 59, 0.774);
 }
 
 @media (prefers-reduced-motion: no-preference) {
