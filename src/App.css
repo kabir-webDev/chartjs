@@ -11,7 +11,7 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  border-color: rgba(238, 86, 59, 0.774);
+  border-color: rgba(238, 86, 59, 0.856);
 }
 .container {
   display: flex;
